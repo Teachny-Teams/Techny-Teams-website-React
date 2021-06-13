@@ -30,8 +30,7 @@ const RightNav = ({ open }) => {
       <li>Home</li>
       <li>About Us</li>
       <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+      <li>Projects</li>
     </Ul>
   );
 };

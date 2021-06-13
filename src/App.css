@@ -1,6 +1,10 @@
 .app {
-    height: 100vh;
-  background: #161415 url("./img.gif") no-repeat top center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
+  margin:0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+.parallax{
+  background:url("./img.gif") repeat fixed 100%;
 }
