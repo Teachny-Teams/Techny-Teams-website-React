@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
-import './style.css'
+import "./style.css";
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -41,17 +42,17 @@ const Ul = styled.ul`
 // `;
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open}>
-      <li className='hover-underline-animation'>
+    <Ul className="z-2" open={open}>
+      <li className="hover-underline-animation z-2">
         <Link to="/">Home</Link>
       </li>
-      <li className='hover-underline-animation'>
+      <li className="hover-underline-animation z-2">
         <Link to="/about">About Us</Link>
       </li>
-      <li className='hover-underline-animation'>
+      <li className="hover-underline-animation z-2">
         <Link to="/contact">Contact Us</Link>
       </li>
-      <li className='hover-underline-animation'>
+      <li className="hover-underline-animation z-2">
         <Link to="/projects">Projects</Link>
       </li>
     </Ul>

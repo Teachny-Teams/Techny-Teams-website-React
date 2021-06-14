@@ -40,12 +40,12 @@ const Burger = () => {
 
   return (
     <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger className="z-2 fixed" open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} />
+      <RightNav className="z-2" open={open} />
     </>
   );
 };
