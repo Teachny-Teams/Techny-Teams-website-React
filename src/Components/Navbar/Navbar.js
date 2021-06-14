@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Burger from "./Burger";
 
 const Nav = styled.nav`
-  background: url("./img.gif ") no-repeat top center;
+  background: url(".../Images/background.gif") no-repeat top center;
   color:black;
   font-size:1.5rem;
   font-weight:bold;
