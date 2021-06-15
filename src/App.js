@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from "./Pages/Home";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects";
 
 
 function App() {
@@ -17,6 +19,12 @@ function App() {
             </Route>
             <Route path='/about'>
               <About />
+            </Route>
+            <Route path="/contact">
+              <Contact/>
+            </Route>
+            <Route path='/projects'>
+              <Projects/>
             </Route>
           </Switch>
         </Router>
