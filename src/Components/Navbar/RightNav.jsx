@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -26,20 +26,7 @@ const Ul = styled.ul`
   }
 `;
 
-// const LI = styled.li`
-//   transform: translate(0%);
-//   transition: 0.3s ease-out;
 
-//   ${(props) =>
-//     props.animated &&
-//     css`
-//       &:hover {
-//         position: fixed;
-//         transform: translate(0%, -30%);
-//         transition: 0.3s ease-out;
-//       }
-//     `}
-// `;
 const RightNav = ({ open }) => {
   return (
     <Ul className="z-2" open={open}>

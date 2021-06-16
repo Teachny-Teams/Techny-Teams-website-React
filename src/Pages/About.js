@@ -9,8 +9,8 @@ function About() {
         id="tsparticles"
         options={config}
       />
-      <Navbar className="z-2" />
-      <h1 className="z-2">TSA</h1>
+      <Navbar className="z-2 absolute" />
+      <h1 className="z-2 absolute">TSA</h1>
     </div>
   );
 }
