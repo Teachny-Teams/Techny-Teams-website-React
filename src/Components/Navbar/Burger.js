@@ -5,7 +5,7 @@ import RightNav from "./RightNav";
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
-  position: fixed;
+  position: fixed !important;
   top: 15px;
   right: 20px;
   z-index: 20;
@@ -40,7 +40,7 @@ const Burger = () => {
 
   return (
     <>
-      <StyledBurger className="z-2 fixed" open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger className="z-2 fixed " style={{position:'fixed'}} open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />

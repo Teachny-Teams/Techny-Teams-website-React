@@ -4,13 +4,113 @@ import config from './ParticleConfig'
 function About() {
   return (
     <div className="w-full h-full bg-opacity-0">
-      <Particles
-        className="fixed w-full z--10"
-        id="tsparticles"
-        options={config}
-      />
+
       <Navbar className="z-2 absolute" />
-      <h1 className="z-2 absolute">TSA</h1>
+      <div className="pt-[55px] w-full h-full z-6" style={{top:58}}>
+        <h1 className="z-2 absolute">TSA</h1>
+        <div className='flex flex-col'>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+          <p>Tanishq</p>
+        </div>
+      </div>
     </div>
   );
 }

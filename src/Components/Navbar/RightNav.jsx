@@ -34,6 +34,9 @@ const RightNav = ({ open }) => {
         <Link to="/">Home</Link>
       </li>
       <li className="hover-underline-animation z-2">
+        <Link to="/blog">Blog</Link>
+      </li>
+      <li className="hover-underline-animation z-2">
         <Link to="/about">About Us</Link>
       </li>
       <li className="hover-underline-animation z-2">
