@@ -26,7 +26,6 @@ const Ul = styled.ul`
   }
 `;
 
-
 const RightNav = ({ open }) => {
   return (
     <Ul className="z-2" open={open}>
@@ -49,3 +48,4 @@ const RightNav = ({ open }) => {
   );
 };
 export default RightNav;
+

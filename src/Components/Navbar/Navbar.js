@@ -19,12 +19,12 @@ const Nav = styled.nav`
   .logo {
     padding: 15px 0;
   }
-  padding-bottom: 55px;
+  /* padding-bottom: 55px; */
   z-index:5 ;
   background-blend-mode: hue;
   backdrop-filter: blur(10px);
-  margin-bottom: 60px;
-  padding-bottom: 60px;
+  /* margin-bottom: 60px;
+  padding-bottom: 60px; */
 `;
 
 const Navbar = () => {
