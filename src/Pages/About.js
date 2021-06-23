@@ -1,6 +1,4 @@
-import Particles from "react-tsparticles";
 import Navbar from "../Components/Navbar/Navbar";
-import config from './ParticleConfig'
 function About() {
   return (
     <div className="w-full h-full bg-opacity-0">

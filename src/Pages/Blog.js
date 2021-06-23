@@ -1,9 +1,27 @@
 import Truncate from "react-truncate";
 import Navbar from "../Components/Navbar/Navbar";
 import blogs from "./Blogs";
+import {
+  Link,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useRouteMatch,
+} from "react-router-dom";
+import NextJSTailwind from "./Blogs/NextJSTailwind";
+
 function Blog() {
+  let { path, url } = useRouteMatch();
+
   return (
     <div className="w-full h-full bg-transparent z--10">
+      <Router>
+        <Switch>
+          <Route exact path="/blogs/reactjs-tailwind-config-with-jit">
+            <NextJSTailwind />
+          </Route>
+        </Switch>
+      </Router>
       <Navbar />
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
         {blogs.map((blog) => {
@@ -18,7 +36,7 @@ function Blog() {
                 <div
                   className="py-8 px-4 lg:px-6  bg-opacity-10 flex flex-col w-full lg:w-auto lg:max-w-xs"
                   style={{
-                    backdropFilter: "blur(10px)",
+                    backdropFilter: "blur(20px)",
                   }}
                 >
                   <div className="">
@@ -35,18 +53,27 @@ function Blog() {
                 </div>
                 <div className="flex-1 p-4 lg:p-6">
                   <div className="text-lg text-white font-semibold mb-8 flex items-center justify-center">
-                    <div className="ml-4">
+                    <div className="m-5">
                       <Truncate
                         lines={3}
                         ellipsis={
                           <span>
-                            ... <a href="/link/to/article">Read more</a>
+                            ...{" "}
+                            <Link
+                              exact
+                              to="/blogs/reactjs-tailwind-config-with-jit"
+                            >
+                              Read more
+                            </Link>
                           </span>
                         }
-                        className="w-full"
+                        className="w-full flex-1"
                       >
                         {blog.description}
                       </Truncate>
+                      {/* <Link exact to="/blogs/nextjs-tailwind-config-with-jit">
+                        read more
+                      </Link> */}
                     </div>
                   </div>
                 </div>

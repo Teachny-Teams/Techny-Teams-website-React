@@ -1,7 +1,4 @@
-import Particles from "react-tsparticles";
 import Navbar from "../Components/Navbar/Navbar";
-import config from "./ParticleConfig";
-
 function Projects() {
   return (
     <div>

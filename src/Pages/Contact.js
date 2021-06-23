@@ -1,6 +1,4 @@
-import Particles from "react-tsparticles";
 import Navbar from "../Components/Navbar/Navbar";
-import config from "./ParticleConfig";
 function Contact() {
   return (
     <div className="bg-opacity-0">
