@@ -6,7 +6,7 @@ import config from "./ParticleConfig";
 function Home() {
   return (
     <div className="bg-opacity-0 h-screen w-screen">
-      <div className=" h-full w-full items-center justify-center">
+      <div className=" h-full bg-opacity-0 w-full items-center justify-center">
         <Particles
           className="fixed w-full z--10 bg-opacity-0"
           id="tsparticles"

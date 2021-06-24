@@ -2,7 +2,7 @@ const configPar =  {
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#0d47a1"
+      "value": "transparent"
     },
     "image": "",
     "position": "50% 50%",

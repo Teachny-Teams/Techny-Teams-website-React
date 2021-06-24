@@ -6,7 +6,9 @@
 }
 
 .parallax {
-  background:url("./Images/background.gif") repeat fixed 100%;
+  /* background:url("./Images/background.gif") repeat fixed 100%; */
+  background:url("./Images/bg2.jpg") repeat fixed 100%;
+  /* background:url("https://i.ibb.co/3sywb0G/51.jpg") repeat fixed 100%; */
   /* background: url("https://i.ibb.co/kHxwKFP/ezgif-com-gif-maker.gif");
   background-size: cover; 
   background-repeat: no-repeat;
