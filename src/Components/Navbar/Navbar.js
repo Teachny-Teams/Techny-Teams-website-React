@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Nav = styled.nav`
   background: url(".../Images/background.gif") no-repeat top center;
-  color: black;
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
   background-size: cover !important;

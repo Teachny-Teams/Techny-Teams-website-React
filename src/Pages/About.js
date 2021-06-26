@@ -47,7 +47,7 @@ function About() {
               <div className="text-white flex items-center">
                 <FiMessageSquare />
                 <span className="ml-4">
-                  I know , Java,Javascript,Python and React(React Native also){" "}
+                  I know , Java, Javascript, Python and React(React Native also){" "}
                 </span>
               </div>
 
@@ -104,9 +104,9 @@ function About() {
 
               <div className="w-full text-white text-lg">
                 <p className="w-full">
-                  I fell in love with programming and I have at least learnt
-                  something, I think… 🤷‍♂️ <br /> <br />I am fluent in classics
-                  like Javascript and Python.
+                  I'm an India based React Native developer. Night developer .
+                  Love Coding. <br /> <br />I am fluent in classics like
+                  Javascript and Python.
                   <br />
                   <br /> My field of Interest's are building new Web
                   Technologies and Products and also in areas related to Deep
