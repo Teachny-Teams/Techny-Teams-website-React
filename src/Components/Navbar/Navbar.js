@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Burger from "./Burger";
+import { Link } from "react-router-dom";
 
 const Nav = styled.nav`
   background: url(".../Images/background.gif") no-repeat top center;
@@ -20,7 +21,7 @@ const Nav = styled.nav`
     padding: 15px 0;
   }
   /* padding-bottom: 55px; */
-  z-index:5 ;
+  z-index: 5;
   background-blend-mode: hue;
   backdrop-filter: blur(10px);
   /* margin-bottom: 60px;
@@ -29,9 +30,13 @@ const Nav = styled.nav`
 
 const Navbar = () => {
   return (
-    <Nav >
-      <div className="logo z-2 " ><p>Techny Teams</p></div>
-      <Burger className=' z-6' />
+    <Nav>
+      <div className="logo z-2 cursor-pointer">
+        <Link to="/">
+          <p>Techny Teams</p>
+        </Link>
+      </div>
+      <Burger className=" z-6" />
     </Nav>
   );
 };

@@ -26,4 +26,4 @@ yarn-error.log*
 # For pusing
 #  git push all master
 
-# yarn build && git stage . && git add . && git commit -m "Added About Left" && git push all master && netlify deploy && netlify deploy --prod
+# yarn build && git stage . && git add . && git commit -m "Done with contacts" && git push all master && netlify deploy && netlify deploy --prod

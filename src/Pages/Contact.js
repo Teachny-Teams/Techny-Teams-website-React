@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import "./basic.css";
+import { FiMail } from "react-icons/fi";
+
 function Contact() {
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
@@ -18,22 +20,23 @@ function Contact() {
   return (
     <div className="bg-opacity-0">
       <Navbar className="z-2" />
-      <div className="pt-[55px] w-full h-full z-6 m-15 p-15"  style={{ top: 58 }}>
+      <div className="pt-[55px] w-full h-full z-6  " style={{ top: 58 }}>
         <section id="contact">
           <div className="row section-head">
             <div className="two columns header-col">
-              <h1>
-                <span>Get in touch with me</span>
+              <h1 className="flex m-3 items-center">
+                <FiMail size={50} />
+                <i style={{marginLeft:15}}>Get In Touch.</i>
               </h1>
             </div>
 
-            <div className="ten columns">
-              <p className="lead">Tanishq</p>
-            </div>
+            {/* <div className="ten columns">
+              <p className="lead"> </p>
+            </div> */}
           </div>
 
           <div className="row">
-            <div className="eight columns">
+            <section className="eight columns">
               <form id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
@@ -107,13 +110,7 @@ function Contact() {
                   </div>
                 </fieldset>
               </form>
-
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
-              </div>
-            </div>
+            </section>
           </div>
         </section>
       </div>
