@@ -31,7 +31,7 @@ function Contact() {
         {/* return ( */}
         <div className="flex flex-row justify-center items-center min-h-full bg-app-background bg-center bg-no-repeat bg-cover">
           <div
-            className="lg:w-full bg-white shadow-2xl z-20 flex flex-col  lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden max-w-xl w-full  m-4 lg:m-6"
+            className="lg:w-full bg-white shadow-2xl z-6 flex flex-col  lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden max-w-xl w-full  m-4 lg:m-6"
             style={{
               backdropFilter: "blur(10px)",
             }}
