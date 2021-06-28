@@ -107,18 +107,18 @@ function Contact() {
                       multiline
                       rows={3}
                       // fullWidth
-                      style={{ width: "2230", maxWidth: "50" }}
+                      style={{ width: "2230", maxWidth: "50", marginTop: 10 }}
                       rowsMax={Number.MAX_SAFE_INTEGER}
                       type="text"
                       label="Message"
                       name="Message"
-                      placeholder="Message"
-                      style={{ marginTop: 10 }}
+                      placeholder="Message"         
                       variant="outlined"
                     />
                   </div>
                   <div className="w-full lg:mt-50 flex items-center flex-1 justify-center ">
                     <Button
+                    className='bg-opacity-0 '
                       variant="contained"
                       color="primary"
                       onClick={handleClick}

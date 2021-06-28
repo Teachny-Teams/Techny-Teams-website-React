@@ -1,27 +1,46 @@
-import Truncate from "react-truncate";
 import Navbar from "../Components/Navbar/Navbar";
-import blogs from "./Blogs";
-import {
-  Link,
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import NextJSTailwind from "./Blogs/NextJSTailwind";
-
+import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import JavaHome from "./Blogs/Java/JavaHome";
+import JavaScriptHome from "./Blogs/Javascript/JavaScriptHome";
+import PythonHome from "./Blogs/Python/PythonHome";
+const langages = [
+  {
+    lang: "JavaScript",
+    url: "/blogs/javascript",
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+  },
+  {
+    lang: "Python",
+    url: "/blogs/python",
+    thumbnail: "http://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png",
+  },
+  {
+    lang: "Java",
+    url: "/blogs/java",
+    thumbnail:
+      "https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp",
+  },
+];
 function Blog() {
   return (
     <div className="w-full h-full bg-transparent z--10">
       <Router>
         <Switch>
-          <Route exact path="/blogs/reactjs-tailwind-config-with-jit">
-            <NextJSTailwind />
+          <Route exact path="/blogs/javascript">
+            <JavaScriptHome />
+          </Route>
+          <Route exact path="/blogs/python">
+            <PythonHome />
+          </Route>
+          <Route exact path="/blogs/java">
+            <JavaHome />
           </Route>
         </Switch>
       </Router>
       <Navbar />
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
-        {blogs.map((blog) => {
+        {langages.map((lang) => {
           return (
             <div className="flex flex-row justify-center items-center min-h-full bg-app-background bg-center bg-no-repeat bg-cover">
               <div
@@ -36,38 +55,28 @@ function Blog() {
                     backdropFilter: "blur(20px)",
                   }}
                 >
-                  <div className="">
+                  <div className=" w-full items-center justify-center">
                     <img
-                      className="rounded-full shadow-sm w-40 h-40 mb-4 border-2 border-white select-none mx-auto"
-                      src={blog.thumbnail}
+                      className="rounded-full bg-black shadow-sm w-40 h-40 mb-4 border-2 border-white select-none mx-auto"
+                      src={lang.thumbnail}
                       alt="logo"
                       // className="w-50 h-50"
                     />
-                    <h1 className="text-lg text-white font-semibold">
-                      {blog.title}
-                    </h1>
+                    <center>
+                      <h1 className="text-lg  text-white font-semibold">
+                        {lang.lang}
+                      </h1>
+                    </center>
                   </div>
                 </div>
                 <div className="flex-1 p-4 lg:p-6">
                   <div className="text-lg text-white font-semibold mb-8 flex items-center justify-center">
                     <div className="m-5">
-                      <Truncate
-                        lines={3}
-                        ellipsis={
-                          <span>
-                            ...{" "}
-                            <Link
-                              exact
-                              to="/blogs/reactjs-tailwind-config-with-jit"
-                            >
-                              Read more
-                            </Link>
-                          </span>
-                        }
-                        className="w-full flex-1"
-                      >
-                        {blog.description}
-                      </Truncate>
+                      {lang.description}
+                      <Link exact to={lang.url}>
+                        Visit blog of <i>{lang.lang}</i>
+                      </Link>
+
                       {/* <Link exact to="/blogs/nextjs-tailwind-config-with-jit">
                         read more
                       </Link> */}

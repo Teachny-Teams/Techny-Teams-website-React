@@ -1,4 +1,4 @@
-import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../../../Components/Navbar/Navbar";
 
 function NextJSTailwind() {
   return (

@@ -26,4 +26,4 @@ yarn-error.log*
 # For pusing
 #  git push all master
 
-# yarn build && git stage . && git add . && git commit -m "Fixed minor bugs" && git push all master && netlify deploy && netlify deploy --prod
+# yarn build && git stage . && git add . && git commit -m "With bugs uploaded" && git push all master && netlify deploy && netlify deploy --prod
