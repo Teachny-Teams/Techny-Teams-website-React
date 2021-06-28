@@ -22,12 +22,12 @@ function Projects() {
                   }}
                 >
                   <div
-                    className="py-8 px-4 lg:px-6  bg-opacity-10 flex flex-col w-full lg:w-auto lg:max-w-xs"
+                    className="py-8 px-4 lg:px-6  bg-opacity-10 flex flex-col w-full lg:w-auto lg:max-w-xs items-center justify-center"
                     style={{
                       backdropFilter: "blur(20px)",
                     }}
                   >
-                    <div className="">
+                    {/* <div className="w-full items-center justify-center"> */}
                       <img
                         className=" shadow-sm w-max object-fill max-h-50 mb-4 border-2 border-white select-none mx-auto"
                         // src={`./Projects/${project.image}`}
@@ -38,7 +38,7 @@ function Projects() {
                       <h1 className="text-lg text-white font-semibold">
                         {project.title}
                       </h1>
-                    </div>
+                    {/* </div> */}
                   </div>
                   <div className="flex-1 p-4 lg:p-6">
                     <div className="flex flex-col text-lg h-full text-white font-semibold mb-8 items-center justify-center">
