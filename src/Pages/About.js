@@ -1,7 +1,6 @@
 import Navbar from "../Components/Navbar/Navbar";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
 import React from "react";
-import { SiJavascript, SiPhp, SiJava, SiPython } from "react-icons/si";
 import {
   FiCode,
   FiGithub,

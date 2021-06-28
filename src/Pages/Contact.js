@@ -1,9 +1,7 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import Navbar from "../Components/Navbar/Navbar";
 // import "./basic.css";
-import { FiMail } from "react-icons/fi";
 import TextField from "@material-ui/core/TextField";
-import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
 function Contact() {

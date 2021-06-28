@@ -6,13 +6,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useRouteMatch,
 } from "react-router-dom";
 import NextJSTailwind from "./Blogs/NextJSTailwind";
 
 function Blog() {
-  let { path, url } = useRouteMatch();
-
   return (
     <div className="w-full h-full bg-transparent z--10">
       <Router>
