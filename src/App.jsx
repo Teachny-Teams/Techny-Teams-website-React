@@ -5,10 +5,9 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Blog from "./Pages/Blog";
-import NextJSTailwind from "./Pages/Blogs/Javascript/React/NextJSTailwind";
-import JavaScriptHome from "./Pages/Blogs/Javascript/JavaScriptHome";
-import PythonHome from "./Pages/Blogs/Python/PythonHome";
-import JavaHome from "./Pages/Blogs/Java/JavaHome";
+import JavaHome from "./Pages/Java/JavaHome";
+import JavaScriptHome from "./Pages/Javascript/JavaScriptHome";
+import PythonHome from "./Pages/Python/PythonHome";
 
 function App() {
   return (
@@ -31,9 +30,6 @@ function App() {
             </Route>
             <Route exact path="/blogs">
               <Blog />
-            </Route>
-            <Route exact path="/blogs/reactjs-tailwind-config-with-jit">
-              <NextJSTailwind />
             </Route>
             <Route exact path="/blogs/javascript">
               <JavaScriptHome />

@@ -1,8 +1,8 @@
 import Navbar from "../Components/Navbar/Navbar";
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import JavaHome from "./Blogs/Java/JavaHome";
-import JavaScriptHome from "./Blogs/Javascript/JavaScriptHome";
-import PythonHome from "./Blogs/Python/PythonHome";
+import JavaHome from "./Java/JavaHome";
+import JavaScriptHome from "./Javascript/JavaScriptHome";
+import PythonHome from "./Python/PythonHome";
 const langages = [
   {
     lang: "JavaScript",
@@ -70,7 +70,7 @@ function Blog() {
                   </div>
                 </div>
                 <div className="flex-1 p-4 lg:p-6">
-                  <div className="text-lg text-white font-semibold mb-8 flex items-center justify-center">
+                  <div className="text-lg text-white font-semibold mb-8 flex items-center h-full justify-center">
                     <div className="m-5">
                       {lang.description}
                       <Link exact to={lang.url}>

@@ -1,6 +1,7 @@
 import Truncate from "react-truncate";
-// import Navbar from "src/Components/Navbar/Navbar.js";
-import blogs from "src/Pages/Blogs";
+import Navbar from "../../Components/Navbar/Navbar";
+// import blogs from ".../Blogs";
+import blogs from '../Blogs'
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import NextJSTailwind from "./Blogs/Javascript/React/NextJSTailwind";
 
@@ -14,7 +15,7 @@ function PythonHome() {
           </Route>
         </Switch>
       </Router> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
         {blogs.map((blog) => {
           return (
