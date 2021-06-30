@@ -32,7 +32,7 @@ function About() {
               }}
             >
               <img
-                className="rounded-full shadow-sm  mb-4 border-2 border-white select-none mx-auto"
+                className="rounded-full shadow-sm  mb-4 border-2 max-h-48 border-white select-none mx-auto"
                 src={"https://i.ibb.co/7gpwLXm/tsa-2.jpg"}
                 alt={"Tanishq"}
                 draggable={false}
