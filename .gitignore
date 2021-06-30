@@ -25,4 +25,4 @@ yarn-error.log*
 
 # For pusing
 
-# yarn build && git stage . && git add . && git commit -m "Done with different languages" && git push all master && netlify deploy && netlify deploy --prod
+# yarn build && git stage . && git add . && git commit -m "Changed Order" && git push all master && netlify deploy && netlify deploy --prod

@@ -5,6 +5,12 @@ import JavaScriptHome from "./Javascript/JavaScriptHome";
 import PythonHome from "./Python/PythonHome";
 const langages = [
   {
+    lang: "Java",
+    url: "/blogs/java",
+    thumbnail:
+      "https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp",
+  },
+  {
     lang: "JavaScript",
     url: "/blogs/javascript",
     thumbnail:
@@ -13,13 +19,8 @@ const langages = [
   {
     lang: "Python",
     url: "/blogs/python",
-    thumbnail: "http://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png",
-  },
-  {
-    lang: "Java",
-    url: "/blogs/java",
     thumbnail:
-      "https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
   },
 ];
 function Blog() {
