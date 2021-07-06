@@ -16,7 +16,7 @@ function Home() {
         <div className="pt-[55px] w-full h-full z-6" style={{ top: 58 }}>
           <div className="relative h-full flex flex-col items-center justify-center z-2 ">
             <img
-              src="https://technyteams.netlify.app/img/image.jpeg"
+              src="https://tanishqsinghanand.github.io/Techny-Teams/img/image.jpeg"
               className="h-40 w-40 z-1"
               alt="logo"
             />

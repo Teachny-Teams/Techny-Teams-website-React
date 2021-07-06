@@ -8,6 +8,7 @@ import Blog from "./Pages/Blog";
 import JavaHome from "./Pages/Java/JavaHome";
 import JavaScriptHome from "./Pages/Javascript/JavaScriptHome";
 import PythonHome from "./Pages/Python/PythonHome";
+import NextJSTailwind from "./Pages/Javascript/React/NextJSTailwind";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route exact path="/blogs/java">
               <JavaHome />
+            </Route>
+            <Route exact path="/blogs/javascript/nextjs-tailwind-config-with-jit">
+              <NextJSTailwind />
             </Route>
           </Switch>
         </Router>

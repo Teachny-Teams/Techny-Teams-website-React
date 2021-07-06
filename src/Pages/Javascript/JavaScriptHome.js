@@ -3,17 +3,18 @@ import Navbar from "../../Components/Navbar/Navbar";
 import blogs from "../Blogs";
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import NextJSTailwind from "./Blogs/Javascript/React/NextJSTailwind";
+import NextJSTailwind from './React/NextJSTailwind'
 
 function JavaScriptHome() {
   return (
-    <div className="w-full h-full bg-transparent z--10">
-      {/* <Router>
+    <div className="w-full lg:h-screen sm:h-full bg-transparent z--10">
+      <Router>
         <Switch>
-          <Route exact path="/blogs/reactjs-tailwind-config-with-jit">
+          <Route exact path="/blogs/javascript/nextjs-tailwind-config-with-jit">
             <NextJSTailwind />
           </Route>
         </Switch>
-      </Router> */}
+      </Router>
       <Navbar />
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
         {blogs.map((blog) => {
@@ -53,7 +54,7 @@ function JavaScriptHome() {
                             ...{" "}
                             <Link
                               exact
-                              to="/blogs/reactjs-tailwind-config-with-jit"
+                              to="/blogs/javascript/nextjs-tailwind-config-with-jit"
                             >
                               Read more
                             </Link>
