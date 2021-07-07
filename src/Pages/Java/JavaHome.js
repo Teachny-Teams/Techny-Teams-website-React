@@ -1,12 +1,12 @@
 import Truncate from "react-truncate";
 import Navbar from "../../Components/Navbar/Navbar";
-import blogs from "../Blogs";
+import blogs from "./blogs";
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import NextJSTailwind from "./Blogs/Javascript/React/NextJSTailwind";
 
 function JavaHome() {
   return (
-    <div className="w-full h-full bg-transparent z--10">
+    <div className="w-full h-screen bg-transparent z--10">
       {/* <Router>
         <Switch>
           <Route exact path="/blogs/reactjs-tailwind-config-with-jit">
@@ -20,7 +20,7 @@ function JavaHome() {
           return (
             <div className="flex flex-row justify-center items-center min-h-full bg-app-background bg-center bg-no-repeat bg-cover">
               <div
-                className="flex flex-col  border-l-8 lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6"
+                className="flex flex-col  lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6"
                 style={{
                   backdropFilter: "blur(10px)",
                 }}
@@ -46,23 +46,22 @@ function JavaHome() {
                 <div className="flex-1 p-4 lg:p-6">
                   <div className="text-lg text-white font-semibold mb-8 flex items-center justify-center">
                     <div className="m-5">
-                      <Truncate
-                        lines={3}
-                        ellipsis={
-                          <span>
-                            ...{" "}
-                            <Link
-                              exact
-                              to="/blogs/reactjs-tailwind-config-with-jit"
-                            >
-                              Read more
-                            </Link>
-                          </span>
-                        }
-                        className="w-full flex-1"
+                      <div
+                        className="w-full flex-1 "
+                        // style={{paddingRight: 80,paddingLeft:"56px"}}
                       >
-                        {blog.description}
-                      </Truncate>
+                        <center>
+                          <p className="w-full flex-1 max-w-md blooog">
+                            Description : {blog.description}
+                            <p className="mt-5" />
+                            <a href={blog.gitLink}>Github Link</a>
+                            {/* : {blog.gitLink} */}
+                            <p className="mt-5" />
+                            <a href={blog.gistLink}>Gist Link</a>
+                            {/* Gist Link : {blog.gistLink} */}
+                          </p>
+                        </center>
+                      </div>
                       {/* <Link exact to="/blogs/nextjs-tailwind-config-with-jit">
                         read more
                       </Link> */}

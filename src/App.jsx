@@ -9,6 +9,7 @@ import JavaHome from "./Pages/Java/JavaHome";
 import JavaScriptHome from "./Pages/Javascript/JavaScriptHome";
 import PythonHome from "./Pages/Python/PythonHome";
 import NextJSTailwind from "./Pages/Javascript/React/NextJSTailwind";
+import './Pages/layout.css'
 
 function App() {
   return (
