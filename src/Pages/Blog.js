@@ -5,7 +5,7 @@ import JavaScriptHome from "./Javascript/JavaScriptHome";
 import PythonHome from "./Python/PythonHome";
 const langages = [
   {
-    lang: "Java",
+    lang: "ICSE Java class 9 and 10",
     url: "/blogs/java",
     thumbnail:
       "https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp",
@@ -14,7 +14,7 @@ const langages = [
     lang: "JavaScript",
     url: "/blogs/javascript",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswE6tnbgoKpipA4qMIRlsVUg7DzTORsWSUw&usqp=CAU",
   },
   {
     lang: "Python",
