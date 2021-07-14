@@ -54,10 +54,9 @@ function JavaHome() {
                           <p className="w-full flex-1 max-w-md blooog">
                             Description : {blog.description}
                             <p className="mt-5" />
-                            <a href={blog.gitLink}>Github Link</a>
-                            {/* : {blog.gitLink} */}
-                            <p className="mt-5" />
-                            <a href={blog.gistLink}>Gist Link</a>
+                            <a href={blog.gistLink}>
+                              Check out the code on github
+                            </a>
                             {/* Gist Link : {blog.gistLink} */}
                           </p>
                         </center>

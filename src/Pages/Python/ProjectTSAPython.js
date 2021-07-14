@@ -3,33 +3,32 @@ const projectTSA = [
     title: "Face Detection ",
     category: "Face Detection with Mediapipe",
     image: "",
-    github: "",
+    github: "https://github.com/Teachny-Teams/Face-detection",
   },
+
   {
-    title: "Face Detection Module",
-    category:
-      "Transformed the face detector to a module so that it can be used in different projects",
+    title: "Air canvas",
+    category: "Paint on the screen with your index finger   ",
     image: "",
-    github: "",
+    github: "https://github.com/Teachny-Teams/Air-canvas",
   },
   {
     title: "Face Detection ",
-    category: "Face Detection with haar cascade frontal face algorithm",
+    category: "Face Detection with haar cascade algorithm",
     image: "",
-    github: "",
+    github: "https://github.com/Teachny-Teams/Face-detector",
+  },
+  {
+    title: "Fingers Volume control",
+    category: "Volume control with the index finger and thumb",
+    image: "",
+    github: "https://github.com/Teachny-Teams/Fingers-Volume-control",
   },
   {
     title: "Hand Detection",
     category: "Hand Detection with mediapipe",
     image: "",
-    github: "",
-  },
-  {
-    title: "Hand Detection Module",
-    category:
-      "Transformed the hand detector to a module so that it can be used in different projects",
-    image: "",
-    github: "",
+    github: "https://github.com/Teachny-Teams/Hand-detection",
   },
   {
     title: "Face Mesh",
@@ -38,10 +37,16 @@ const projectTSA = [
     github: "https://github.com/Teachny-Teams/Face-Mesh",
   },
   {
-    title: "Object Detection",
+    title: "Object Detection - Yolo",
     category: "Object Detection With Yolo",
     image: "",
     github: "https://github.com/Teachny-Teams/Yolo-object-Detection",
+  },
+  {
+    title: "Object Detection - SSD",
+    category: "Object Detection With SSD Mobilenet",
+    image: "",
+    github: "https://github.com/Teachny-Teams/SSD-Mobilenet-Object-Detectoion-",
   },
 ];
 

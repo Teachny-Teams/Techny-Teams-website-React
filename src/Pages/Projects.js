@@ -28,16 +28,16 @@ function Projects() {
                     }}
                   >
                     {/* <div className="w-full items-center justify-center"> */}
-                      <img
-                        className=" shadow-sm w-max object-fill max-h-50 mb-4 border-2 border-white select-none mx-auto"
-                        // src={`./Projects/${project.image}`}
-                        src={project.image}
-                        alt="logo"
-                        // className="w-50 h-50"
-                      />
-                      <h1 className="text-lg text-white font-semibold">
-                        {project.title}
-                      </h1>
+                    <img
+                      className=" shadow-sm w-max object-fill max-h-50 mb-4 border-2 border-white select-none mx-auto"
+                      // src={`./Projects/${project.image}`}
+                      src={project.image}
+                      alt="logo"
+                      // className="w-50 h-50"
+                    />
+                    <h1 className="text-lg text-white font-semibold">
+                      {project.title}
+                    </h1>
                     {/* </div> */}
                   </div>
                   <div className="flex-1 p-4 lg:p-6">
@@ -49,7 +49,9 @@ function Projects() {
                       </div>
                       {/* <br /> */}
                       <div className="text-green-500">
-                        Code :<a href={project.github}>{" "}{project.github}</a>
+                        <a href={project.github}>
+                          Check out the code on github
+                        </a>
                       </div>
                     </div>
                   </div>

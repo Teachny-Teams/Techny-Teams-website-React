@@ -23,9 +23,11 @@ const langages = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
   },
 ];
-function Blog() {
+
+function Blog({nav}) {
   return (
     <div className="w-full h-full bg-transparent z--10">
+      <Navbar nav={nav} />
       <Router>
         <Switch>
           <Route exact path="/blogs/javascript">
@@ -39,7 +41,8 @@ function Blog() {
           </Route>
         </Switch>
       </Router>
-      <Navbar />
+      
+      
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
         {langages.map((lang) => {
           return (

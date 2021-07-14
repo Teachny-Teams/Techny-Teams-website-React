@@ -25,6 +25,6 @@ yarn-error.log*
 
 # For pusing
 
-# yarn build && git stage . && git add . && git commit -m "Further " && git push all master && netlify deploy && netlify deploy --prod
+# yarn build && git stage . && git add . && git commit -m "Added python links" && git push all master && netlify deploy && netlify deploy --prod
 # Local Netlify folder
 .netlify

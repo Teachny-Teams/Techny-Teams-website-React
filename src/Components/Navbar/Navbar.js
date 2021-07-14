@@ -28,7 +28,8 @@ const Nav = styled.nav`
   padding-bottom: 60px; */
 `;
 
-const Navbar = () => {
+const Navbar = ({nav=true}) => {
+  if (nav === true){
   return (
     <Nav>
       <div className="logo z-2 cursor-pointer">
@@ -39,6 +40,10 @@ const Navbar = () => {
       <Burger className=" z-6" />
     </Nav>
   );
+  }
+  else{
+    return null ;
+  }
 };
 
 export default Navbar;

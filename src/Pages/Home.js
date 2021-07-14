@@ -2,6 +2,7 @@ import "../index.css";
 import Header from "../Components/Navbar/Navbar";
 import Particles from "react-tsparticles";
 import config from "./ParticleConfig";
+import Blog from "./Blog";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
           options={config}
         />
         <Header className="z-2" />
-        <div className="pt-[55px] w-full h-full z-6" style={{ top: 58 }}>
+        <div className="pt-[55px] w-full h-screen z-6" style={{ top: 58 }}>
           <div className="relative h-full flex flex-col items-center justify-center z-2 ">
             <img
               src="https://tanishqsinghanand.github.io/Techny-Teams/img/image.jpeg"
@@ -26,6 +27,7 @@ function Home() {
               </p>
             </span>
           </div>
+          <Blog className="blogg" nav={false} />
         </div>
       </div>
     </div>
