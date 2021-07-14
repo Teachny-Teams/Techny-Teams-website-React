@@ -9,6 +9,7 @@ import {
   FiUser,
   FiMail,
 } from "react-icons/fi";
+import {FaSchool} from 'react-icons/fa'
 
 function About() {
   return (
@@ -41,6 +42,11 @@ function About() {
               <div className="text-white text-lg font-black flex items-center mb-2">
                 <FiUser />
                 <span className="ml-4">Tanishq Singh Anand</span>
+              </div>
+
+              <div className="text-white flex items-center mb-2">
+                <FaSchool />
+                <span className="ml-4">YPS Mohali Class 9</span>
               </div>
 
               <div className="text-white flex items-center">
