@@ -16,30 +16,6 @@ const projectTSA = [
     github: "https://github.com/TanishqSinghAnand/Attendence-app",
   },
   {
-    title: "Calculator",
-    category: "Calculator made with Javascript",
-    image:
-      "https://www.tanishqsinghanands.live/images/portfolio/Calculator.png",
-    url: "https://tanishqsinghanand.github.io/Final-Calculator/",
-    github: "https://github.com/TanishqSinghAnand/Final-Calculator",
-  },
-  {
-    title: "Tic-Tac-Toe",
-    category: "Tic-Tac-Toe made with Javascript (P5.js)",
-    image:
-      "https://www.tanishqsinghanands.live/images/portfolio/Tic-Tac-Toe.png",
-    url: "https://tanishqsinghanand.github.io/TICTACTOE/",
-    github: "https://github.com/TanishqSinghAnand/TICTACTOE",
-  },
-  {
-    title: "Amazon",
-    category: "Amazon clone built with React",
-    image:
-      "https://www.tanishqsinghanands.live/images/portfolio/Amazon Clone.png",
-    url: "https://clone-8c3a2.web.app/",
-    github: "https://github.com/TanishqSinghAnand/Amazon-clone",
-  },
-  {
     title: "WhatsApp",
     category: "WhatsApp clone built with React",
     image: "https://www.tanishqsinghanands.live/images/portfolio/WhatsApp.jpeg",
@@ -91,6 +67,22 @@ const projectTSA = [
       "https://www.tanishqsinghanands.live/images/portfolio/Next amazon.jpeg",
     url: "https://amazon-by-tsa.vercel.app/",
     github: "https://github.com/TanishqSinghAnand/Amazon-by-TSA",
+  },
+  {
+    title: "Calculator",
+    category: "Calculator made with Javascript",
+    image:
+      "https://www.tanishqsinghanands.live/images/portfolio/Calculator.png",
+    url: "https://tanishqsinghanand.github.io/Final-Calculator/",
+    github: "https://github.com/TanishqSinghAnand/Final-Calculator",
+  },
+  {
+    title: "Tic-Tac-Toe",
+    category: "Tic-Tac-Toe made with Javascript (P5.js)",
+    image:
+      "https://www.tanishqsinghanands.live/images/portfolio/Tic-Tac-Toe.png",
+    url: "https://tanishqsinghanand.github.io/TICTACTOE/",
+    github: "https://github.com/TanishqSinghAnand/TICTACTOE",
   },
 ];
 

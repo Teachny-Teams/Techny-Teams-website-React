@@ -31,15 +31,15 @@ function JavaHome() {
                     backdropFilter: "blur(20px)",
                   }}
                 >
-                  <div className="">
+                  <div className="w-full item-center justify-center">
                     <img
                       className="rounded-full shadow-sm w-40 h-40 mb-4 border-2 border-white select-none mx-auto"
                       src={blog.thumbnail}
                       alt="logo"
                       // className="w-50 h-50"
                     />
-                    <h1 className="text-lg text-white font-semibold">
-                      {blog.title}
+                    <h1 className="text-lg text-white font-semibold w-full item-center justify-center">
+                      <center>{blog.title}</center>
                     </h1>
                   </div>
                 </div>
@@ -51,14 +51,17 @@ function JavaHome() {
                         // style={{paddingRight: 80,paddingLeft:"56px"}}
                       >
                         <center>
-                          <p className="w-full flex-1 max-w-md blooog">
-                            Description : {blog.description}
-                            <p className="mt-5" />
-                            <a href={blog.gistLink}>
+                          <a
+                            href={blog.gistLink}
+                            className="w-full flex-1 max-w-md blooog"
+                          >
+                            <p className="w-full flex-1 max-w-md blooog">
+                              Question : {blog.description}
+                              <p className="mt-5" />
                               Check out the code on github
-                            </a>
-                            {/* Gist Link : {blog.gistLink} */}
-                          </p>
+                              {/* Gist Link : {blog.gistLink} */}
+                            </p>
+                          </a>
                         </center>
                       </div>
                       {/* <Link exact to="/blogs/nextjs-tailwind-config-with-jit">

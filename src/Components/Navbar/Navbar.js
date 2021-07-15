@@ -32,7 +32,7 @@ const Navbar = ({nav=true}) => {
   if (nav === true){
   return (
     <Nav>
-      <div className="logo z-2 cursor-pointer">
+      <div className="logo z-2 cursor-pointer sticky">
         <Link to="/">
           <p>Techny Teams</p>
         </Link>

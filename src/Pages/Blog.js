@@ -5,7 +5,7 @@ import JavaScriptHome from "./Javascript/JavaScriptHome";
 import PythonHome from "./Python/PythonHome";
 const langages = [
   {
-    lang: "ICSE Java class 9 and 10",
+    lang: "ICSE Java class 9 & 10",
     url: "/blogs/java",
     thumbnail:
       "https://qph.fs.quoracdn.net/main-qimg-48b7a3d8958565e7aa3ad4dbf2312770.webp",
