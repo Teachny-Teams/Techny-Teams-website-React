@@ -33,10 +33,10 @@ const RightNav = ({ open }) => {
         <Link to="/blogs">Blogs</Link>
       </li>
       <li className="hover-underline-animation z-2">
-        <Link to="/about">About Us</Link>
+        <Link to="/about">About Me</Link>
       </li>
       <li className="hover-underline-animation z-2">
-        <Link to="/contact">Contact Us</Link>
+        <Link to="/contact">Contact Me</Link>
       </li>
       <li className="hover-underline-animation z-2">
         <Link to="/projects">Projects</Link>

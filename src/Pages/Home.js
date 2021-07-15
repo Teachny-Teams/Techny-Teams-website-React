@@ -16,7 +16,9 @@ function Home() {
         />
         <Header className="z-2" />
         <div
-          className="relative overflow-y-scroll pt-[55px] w-full h-screen z-6"
+          className="relative 
+
+           pt-[55px] w-full h-screen z-6"
           style={{ top: 58 }}
         >
           <div className="h-full flex flex-col items-center justify-center z-2 ">
@@ -32,7 +34,7 @@ function Home() {
             </span>
           </div>
           {/* <hr class="hr-text" data-content="JavaScript Blogs"/> */}
-          <Blog className="blogg" nav={false} />
+          {/* <Blog className="blogg" nav={false} /> */}
         </div>
       </div>
     </div>
