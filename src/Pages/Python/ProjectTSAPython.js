@@ -48,6 +48,12 @@ const projectTSA = [
     image: "",
     github: "https://github.com/Teachny-Teams/SSD-Mobilenet-Object-Detectoion-",
   },
+  {
+    title: "Youtube Downloader",
+    category: "Download any youtube video in the preffered format",
+    image: "",
+    github: "https://github.com/Teachny-Teams/Youtube-to-MP4",
+  },
 ];
 
 export default projectTSA;
