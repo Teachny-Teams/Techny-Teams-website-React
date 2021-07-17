@@ -34,10 +34,10 @@ function Home() {
           </div>
           {/* <hr class="hr-text" data-content="JavaScript Blogs"/> */}
           {/* <Blog className="blogg fixed" nav={false} /> */}
-          <div className="mx-28 bg-opacity-10 h-screen">
+          <div className="lg:mx-28 bg-opacity-10 h-screen">
             <div className="flex flex-row justify-center items-center min-h-full bg-app-background bg-center bg-no-repeat bg-cover">
               <div
-                className="flex flex-col  border-l-8 lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6"
+                className="flex flex-col  border-l-8 lg:flex-row  bg-opacity-10 rounded-3xl overflow-hidden w-full lg:max-w-5xl shadow-lg m-4 lg:m-6"
                 style={{
                   backdropFilter: "blur(10px)",
                 }}
@@ -48,7 +48,7 @@ function Home() {
                     backdropFilter: "blur(20px)",
                   }}
                 >
-                  <div className="z-2 w-full items-center justify-center para mt-80 text-white">
+                  <div className="z-2 w-full items-center justify-center para text-white">
                     Welcome to Techny teams. This is Tanishq Singh Anand of
                     Yadavindra Public School Moahli. <br />
                     I am fluent in classics like Javascript and Python. Whenever

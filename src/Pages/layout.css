@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 .pro {
   width: 100%;
   height: 100%;
@@ -29,9 +30,10 @@ hDivSpan {
   overflow-y: scroll;
 }
 .para{
-  font-family: 'monospace';
+  /* font-family: 'monospace'; */
+  font-family: 'Zen Loop', cursive;
     /* color: yellow; */
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 50px;  
 
 }
