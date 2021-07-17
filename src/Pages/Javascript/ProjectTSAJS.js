@@ -1,5 +1,13 @@
 const projectTSA = [
   {
+    title: "Amazon with Next JS",
+    category: "E-commerce app with Next JS and Stripe payments",
+    image:
+      "https://www.tanishqsinghanands.live/images/portfolio/Next amazon.jpeg",
+    url: "https://amazon-by-tsa.vercel.app/",
+    github: "https://github.com/TanishqSinghAnand/Amazon-by-TSA",
+  },
+  {
     title: " YPS Google",
     category: "Google clone built with React",
     image:
@@ -7,14 +15,6 @@ const projectTSA = [
     url: "https://clone-c29a7.web.app/",
     github: "https://github.com/TanishqSinghAnand/google-clone",
   },
-  // {
-  //   title: "Amazon",
-  //   category: "Amazon clone built with React",
-  //   image:
-  //     "https://www.tanishqsinghanands.live/images/portfolio/Amazon Clone.png",
-  //   url: "https://clone-8c3a2.web.app/",
-  //   github: "https://github.com/TanishqSinghAnand/Amazon-clone",
-  // },
   {
     title: "WhatsApp",
     category: "WhatsApp clone built with React",
@@ -59,14 +59,6 @@ const projectTSA = [
       "https://www.tanishqsinghanands.live/images/portfolio/Panchhi_Dental_Clinic.jpeg",
     url: "https://panchhidentalclinic.netlify.app/",
     github: "",
-  },
-  {
-    title: "Amazon with Next JS",
-    category: "E-commerce app with Next JS and Stripe payments",
-    image:
-      "https://www.tanishqsinghanands.live/images/portfolio/Next amazon.jpeg",
-    url: "https://amazon-by-tsa.vercel.app/",
-    github: "https://github.com/TanishqSinghAnand/Amazon-by-TSA",
   },
   {
     title: "Attendence app",

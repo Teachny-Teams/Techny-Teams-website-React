@@ -54,7 +54,7 @@ function JavaScriptHome() {
                       {/* <br /> */}
                       <div className="text-green-500">
                         <a href={project.github}>
-                          Check out the code on github
+                          Check out the code on GitHub
                         </a>
                       </div>
                     </div>

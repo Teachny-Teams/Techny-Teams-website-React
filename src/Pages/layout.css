@@ -25,3 +25,13 @@ hDivSpan {
   background-color: #f3f5f6;
   padding: 0 10px;
 }
+.overflow-y-scroll{
+  overflow-y: scroll;
+}
+.para{
+  font-family: 'monospace';
+    /* color: yellow; */
+    font-size: 20px;
+    padding: 50px;  
+
+}
