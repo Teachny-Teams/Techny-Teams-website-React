@@ -23,11 +23,11 @@ function Home() {
           <div className="h-full flex flex-col items-center justify-center z-2 ">
             <img
               src="https://tanishqsinghanand.github.io/Techny-Teams/img/image.jpeg"
-              className="h-40 w-40 z-1"
+              className="h-40 w-40 lg:h-72 lg:w-72 z-1"
               alt="logo"
             />
             <span className="z-2">
-              <p className="font-mono  font-bold text-4xl lg:text-8xl z-2 text-yellow-500">
+              <p className="header__text font-bold text-4xl lg:text-8xl z-2 text-yellow-500">
                 Techny Teams
               </p>
             </span>
@@ -48,7 +48,7 @@ function Home() {
                     backdropFilter: "blur(20px)",
                   }}
                 >
-                  <div className="z-2 w-full items-center justify-center para text-white">
+                  <div className="z-2 w-full sm:text-base lg:text-2xl	 items-center justify-center para text-white">
                     Welcome to Techny teams. This is Tanishq Singh Anand of
                     Yadavindra Public School Moahli. <br />
                     I am fluent in classics like Javascript and Python. Whenever
