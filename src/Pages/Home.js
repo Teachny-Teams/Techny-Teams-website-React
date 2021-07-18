@@ -85,7 +85,7 @@ function Home() {
               </div>
             </div>
           </section>
-          <p className="min-h-20 m-12 p-12"></p>
+          {/* <p className="min-h-20 m-12 p-12"></p> */}
         </div>
       </div>
     </div>
