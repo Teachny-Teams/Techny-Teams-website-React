@@ -30,6 +30,9 @@ const RightNav = ({ open }) => {
   return (
     <Ul className="z-2" open={open}>
       <li className="hover-underline-animation z-2">
+        <Link to="/projects">Projects</Link>
+      </li>
+      <li className="hover-underline-animation z-2">
         <Link to="/blogs">Java</Link>
       </li>
       <li className="hover-underline-animation z-2">
@@ -37,9 +40,6 @@ const RightNav = ({ open }) => {
       </li>
       <li className="hover-underline-animation z-2">
         <Link to="/contact">Contact Me</Link>
-      </li>
-      <li className="hover-underline-animation z-2">
-        <Link to="/projects">Projects</Link>
       </li>
     </Ul>
   );
