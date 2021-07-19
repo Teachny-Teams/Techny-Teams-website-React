@@ -3,16 +3,17 @@ import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import JavaHome from "./Java/JavaHome";
 import JavaScriptHome from "./Javascript/JavaScriptHome";
 import PythonHome from "./Python/PythonHome";
+
 const langages = [
   {
     lang: "JavaScript",
-    url: "/blogs/javascript",
+    url: "/projects/javascript",
     thumbnail:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswE6tnbgoKpipA4qMIRlsVUg7DzTORsWSUw&usqp=CAU",
   },
   {
     lang: "Python",
-    url: "/blogs/python",
+    url: "/projects/python",
     thumbnail:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
   },
@@ -20,6 +21,19 @@ const langages = [
 function Projects() {
   return (
     <div className=" text-white">
+      <Router>
+        <Switch>
+          <Route exact path="/projects/javascript">
+            <JavaScriptHome />
+          </Route>
+          <Route exact path="/projects/python">
+            <PythonHome />
+          </Route>
+          {/* <Route exact path="/blogs/java">
+            <JavaHome />
+          </Route> */}
+        </Switch>
+      </Router>
       <Navbar className="z-2 " />
       <div className="pt-[55px] w-full h-full z-6 " style={{ top: 58 }}>
         <div className="pro">
@@ -58,7 +72,7 @@ function Projects() {
                         <div className="m-5">
                           {lang.description}
                           <Link exact to={lang.url}>
-                            Visit blog of <i>{lang.lang}</i>
+                            Visit projects of <i>{lang.lang}</i>
                           </Link>
 
                           {/* <Link exact to="/blogs/nextjs-tailwind-config-with-jit">

@@ -18,12 +18,12 @@ function Blog({nav}) {
       <Navbar nav={nav} />
       <Router>
         <Switch>
-          <Route exact path="/blogs/javascript">
+          {/* <Route exact path="/blogs/javascript">
             <JavaScriptHome />
           </Route>
           <Route exact path="/blogs/python">
             <PythonHome />
-          </Route>
+          </Route> */}
           <Route exact path="/blogs/java">
             <JavaHome />
           </Route>

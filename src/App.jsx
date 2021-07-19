@@ -33,16 +33,19 @@ function App() {
             <Route exact path="/blogs">
               <Blog />
             </Route>
-            <Route exact path="/blogs/javascript">
+            <Route exact path="/projects/javascript">
               <JavaScriptHome />
             </Route>
-            <Route exact path="/blogs/python">
+            <Route exact path="/projects/python">
               <PythonHome />
             </Route>
             <Route exact path="/blogs/java">
               <JavaHome />
             </Route>
-            <Route exact path="/blogs/javascript/nextjs-tailwind-config-with-jit">
+            <Route
+              exact
+              path="/projects/javascript/nextjs-tailwind-config-with-jit"
+            >
               <NextJSTailwind />
             </Route>
           </Switch>
